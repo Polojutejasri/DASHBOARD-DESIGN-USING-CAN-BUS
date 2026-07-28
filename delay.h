@@ -1,6 +1,4 @@
-#ifndef _DELAY_H_
-#define _DELAY_H_
-#include "types.h"
-void delay_us(u32 dlyUS);
-void delay_ms(u32 dlyMS);
-#endif
+void delay_ms(unsigned int ms_dly);
+void DelayMS(unsigned int dly);
+void DelayUs(int us);
+void  DelayS(unsigned int  dly);
