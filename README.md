@@ -93,6 +93,70 @@ The system is designed using three LPC2129-based nodes connected through a CAN B
 | Embedded C | Programming |
 | Flash Magic | Programming LPC2129 |
 | Proteus | Simulation |
+## 📁 Repository Structure
+
+```text
+DASHBOARD-DESIGN-USING-CAN-BUS
+│
+├── 📁 Documentation
+│   ├── 📁 Image
+│   │   └── Blockdiagram.png
+│   └── DASH BOARD DESIGN USING CAN BUS.pdf
+│
+├── 📁 Main Node
+│   ├── 📁 Images
+│   │   ├── 20X4 LCD.webp
+│   │   ├── DASH BOARD CIRCUIT.jpeg
+│   │   ├── Dashboard Display.png
+│   │   └── DS18B20.jpeg
+│   ├── can.c
+│   ├── can.h
+│   ├── can_defines.h
+│   ├── delay.c
+│   ├── delay.h
+│   ├── ds18b20.c
+│   ├── ds18b20.h
+│   ├── lcd.c
+│   ├── lcd.h
+│   ├── Main_LCD.c
+│   ├── main_node.c
+│   ├── headers.h
+│   ├── defines.h
+│   ├── pin_function_defines.h
+│   └── types.h
+│
+├── 📁 Fuel Node
+│   ├── adc.c
+│   ├── adc.h
+│   ├── adc_defines.h
+│   ├── can.c
+│   ├── can.h
+│   ├── can_defines.h
+│   ├── delay.c
+│   ├── delay.h
+│   ├── fuel_node.c
+│   ├── uart0.c
+│   ├── uart0.h
+│   ├── headers.h
+│   ├── defines.h
+│   ├── pin_function_defines.h
+│   └── types.h
+│
+├── 📁 Indicator Node
+│   ├── can.c
+│   ├── can.h
+│   ├── can_defines.h
+│   ├── delay.c
+│   ├── delay.h
+│   ├── indicator_node.c
+│   ├── headers.h
+│   ├── defines.h
+│   ├── pin_function_defines.h
+│   └── types.h
+│
+├── README.md
+└── LICENSE
+```
 ## 🚀 Features
 
 - Real-time engine temperature monitoring using the DS18B20 sensor.
