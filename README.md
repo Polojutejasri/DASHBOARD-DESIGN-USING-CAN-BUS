@@ -16,4 +16,3 @@ Platform Language Protocol IDE
 ▶ Build Instructions
 📈 Future Enhancements
 👨‍💻 Author
-
