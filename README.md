@@ -15,8 +15,6 @@
 
 📂 Repository Structure
 
-📨 CAN Message IDs
-
 🚀 Features
 
 🖥️ LCD Output Gallery
@@ -168,7 +166,7 @@ DASHBOARD-DESIGN-USING-CAN-BUS
 - Modular design with separate Main, Indicator, and Fuel Gauge nodes.
 - Developed using Embedded C on the ARM7 LPC2129 microcontroller.
 
-  ## 🖥️ Project Output
+  ## 🖥️ LCD Output Gallery
 
 The dashboard successfully displays real-time vehicle information received through the CAN Bus communication network.
 
