@@ -31,7 +31,7 @@ The **Dashboard Design Using CAN Bus** project is an Embedded Systems applicatio
 
 The system is implemented using three independent CAN nodes that communicate with each other over the CAN bus:
 
-- **Main Node** – Displays engine temperature, fuel percentage, and indicator status on a 20x4 LCD while coordinating communication with the other nodes.
+- **Main Node** – It reads engine temperature from the DS18B20 sensor, receives fuel percentage from the Fuel Node, and displays both values on the LCD. It also detects left and right indicator switch presses and sends CAN messages to the Indicator Node
 - **Fuel Gauge Node** – Reads the fuel sensor value using the on-chip ADC and transmits the fuel percentage to the Main Node through the CAN network.
 - **Indicator Node** – Receives commands from the Main Node and controls the left and right turn indicators using LEDs.
 ## 🎯 Objectives
