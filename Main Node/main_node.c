@@ -23,12 +23,12 @@ int main()
   FuelBar_();
 
   Write_CMD_LCD(0x80);//selecting starting line and staring pos
-  Write_str_LCD("<VECHILE DASHBOARD>");
+  Write_str_LCD("<<< DASHBOARD >>>");
   delay_ms(1000);
 
   //temp
   Write_CMD_LCD(0xC0);
-  Write_str_LCD("Engine Temp: ");
+  Write_str_LCD("Temp: ");
 
   Write_CMD_LCD(0x40+24);
   Degree();
@@ -43,7 +43,7 @@ int main()
 
   //indicator
   Write_CMD_LCD(0xD4);
-  Write_str_LCD("INDICATOR: ");
+  Write_str_LCD("Indicator: ");
 
         Write_CMD_LCD(0x40+32);
   LI();
