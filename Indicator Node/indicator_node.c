@@ -53,11 +53,6 @@ int main()
                delay_ms(120);
                IOSET0=(1<<i);
 
-               /*else{
-                  IOCLR0 = (1<<i);
-                  delay_ms(120);
-                  IOSET0 = (1<<i);
-               }*/
             }
         }
         else if(indicator_state == 2)
@@ -80,11 +75,6 @@ int main()
                 delay_ms(120);
                 IOSET0=(1<<j);
 
-                /*else{
-                    IOCLR0 = (1<<j);
-                    delay_ms(120);
-                    IOSET0 = (1<<j);
-                }*/
             }
         }
         else//indicator_state=3
