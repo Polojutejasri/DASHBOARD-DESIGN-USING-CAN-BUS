@@ -1,13 +1,13 @@
 #ifndef __CAN_H__
 #define __CAN_H__
 #include "types.h"
-struct CAN_Frame
+struct CAN_Frame  // creates new structure named CAN_Frame
 {
-        u32 ID;
+        u32 ID;//CAN identifier
         struct BitField
         {
-                u8 RTR : 1;
-                u8 DLC : 4;
+                u8 RTR : 1;  //it occupies 1 bit
+                u8 DLC : 4;  //it occupies 4 its
         }vbf;
         u32 Data1,Data2;//8-bytes
 };
