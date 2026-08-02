@@ -12,6 +12,6 @@ struct CAN_Frame
         u32 Data1,Data2;//8-bytes
 };
 void Init_CAN1(void);
-void CAN1_Tx(struct CAN_Frame);
-void CAN1_Rx(struct CAN_Frame *);
-#endif
+void CAN1_Tx(struct CAN_Frame);//function to transmit a CAN frame
+void CAN1_Rx(struct CAN_Frame *);//fuction to recieve a CAN frame
+#endif//end of header file
